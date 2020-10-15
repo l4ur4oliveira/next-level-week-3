@@ -12,24 +12,34 @@ Criar migrations usando `yarn typeorm migration:create -n nome_migration`.
 
 ## Tools
 
-- Express
-- TypeORM
-- SQLite
+- Express - *server*
+- TypeORM e SQLite - *database*
+- Multer - *upload images*
+- Yup - *validation*
 
 ## Project files structure
 
 ```
 /src
+    /config
+        ..upload.ts
     /controllers
         ..OrphanagesController.ts
     /database
         /migrations
         ..connection.ts
         ..database.sqlite
+    /errors
+        ..handler.ts
     /models
+        ..Image.ts
         ..Orphanage.ts
+    /views
+        ..images_view.ts
+        ..orphanages_view.ts
     ..routes.ts
     ..server.ts
+/uploads
 ..ormconfig.json
 ..tsconfig.json
 ```
