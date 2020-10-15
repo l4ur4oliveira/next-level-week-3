@@ -1,14 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    color: #fff;
-    background: #ebf2f5;
+  color: #fff;
+  background: #ebf2f5;
 }
 
 body, input, button, textarea {
-    font: 600 18px Nunito, sans-serif;
+  font: 600 18px Nunito, sans-serif;
+}
+
+div.leaflet-tile-pane {
+  filter: grayscale(1);
+  opacity: 0.5;
 }

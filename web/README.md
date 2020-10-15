@@ -17,15 +17,25 @@ Se tudo estiver ok com a instalação, a aplicação poderá ser acessada em `lo
 /public
     ..index.html
 /src
+    /components
+        ..Sidebar.tsx
     /images
     /pages
+        ..CreateOrphanage.tsx
         ..Landing.tsx
+        ..Orphanage.tsx
         ..OrphanagesMap.tsx
     /styles
+        /components
+            ..sidebar.css
         /pages
+            ..create-orphanage.css
             ..landing.css
             ..orphanage-map.css
+            ..orphanage.css
         ..global.css
+    /utils
+        ..mapIcon.ts
     ..App.tsx
     ..index.tsx
     ..routes.tsx
