@@ -25,6 +25,8 @@ Se tudo estiver ok com a instalação, a aplicação poderá ser acessada em `lo
         ..Landing.tsx
         ..Orphanage.tsx
         ..OrphanagesMap.tsx
+    /services
+        ..api.ts
     /styles
         /components
             ..sidebar.css
