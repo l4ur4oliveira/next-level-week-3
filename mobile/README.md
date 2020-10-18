@@ -17,10 +17,17 @@ Se tudo estiver ok com a instalação, a aplicação abrirá a página correspon
 /src
     /@types
         ..index.ts
+    /components
+        ..Header.tsx
     /images
     /pages
+        /CreateOrphanage
+            ..OrphanageData.tsx
+            ..SelectMapPosition.tsx
         ..Orphanage.tsx
         ..OrphanagesMap.tsx
+    /services
+        ..api.ts
     ..routes.tsx
 ..App.tsx
 ```
